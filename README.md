@@ -142,12 +142,12 @@ The API uses appropriate HTTP status codes:
 - **422** – Input validation error
 
 ## 10. Testing
+The API tests are written using pytest and FastAPI TestClient.
 
-The API can be tested using the interactive Swagger UI at:
+Run the tests with:
 
-http://127.0.0.1:8000/docs
-
-The tests cover book management, borrowing, returning, filtering, and report functionality.
+```bash
+python -m pytest tests/ -v
 
 ## 11. Conclusion
 

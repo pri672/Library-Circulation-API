@@ -156,3 +156,17 @@ The Library Circulation API provides an organized way to manage library books an
 ## Author
 
 Developed as a Python backend project.
+
+## API Screenshots
+
+### 1. Get Books
+![Get Books](screenshots/get-books-api.png)
+
+### 2. Create Book
+![Create Book](screenshots/create-book-api.png)
+
+### 3. Search Books
+![Search Books](screenshots/search-books-api.png)
+
+### 4. Filter Books
+![Filter Books](screenshots/filter-books-api.png)

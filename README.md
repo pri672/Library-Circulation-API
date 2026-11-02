@@ -164,11 +164,10 @@ python -m pytest tests/ -v
 
 The Library Circulation API provides an organized way to manage library books and borrowing activities. It helps maintain accurate book availability, track loan records, and retrieve useful library information through RESTful API endpoints.
 
-## Author
+##12. Author
+Developed by Preety | Python Backend Developer
 
-Developed as a Python backend project.
-
-## 12. API Screenshots
+## 13. API Screenshots
 
 ### 1. Get Books
 

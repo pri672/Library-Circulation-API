@@ -16,6 +16,7 @@ The application provides different API endpoints to create, retrieve, update, se
 - SQLite
 - Uvicorn
 - Pydantic
+- Pytest
 
 ## 3. Key Features
 
@@ -50,6 +51,14 @@ LibraryAPI/
 │   └── schemas.py
 │
 ├── tests/
+│   └── test_library.py
+│
+├── screenshots/
+│   ├── get-books-api.png
+│   ├── create-book-api.png
+│   ├── search-books-api.png
+│   └── filter-books-api.png
+│
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -61,7 +70,7 @@ LibraryAPI/
 
 ```bash
 git clone https://github.com/pri672/Library-Circulation-API.git
-cd LibraryAPI
+cd Library-Circulation-API
 ```
 
 ### Step 2: Create a Virtual Environment
@@ -142,12 +151,14 @@ The API uses appropriate HTTP status codes:
 - **422** – Input validation error
 
 ## 10. Testing
+
 The API tests are written using pytest and FastAPI TestClient.
 
 Run the tests with:
 
 ```bash
 python -m pytest tests/ -v
+```
 
 ## 11. Conclusion
 
@@ -157,16 +168,20 @@ The Library Circulation API provides an organized way to manage library books an
 
 Developed as a Python backend project.
 
-## API Screenshots
+## 12. API Screenshots
 
 ### 1. Get Books
+
 ![Get Books](screenshots/get-books-api.png)
 
 ### 2. Create Book
+
 ![Create Book](screenshots/create-book-api.png)
 
 ### 3. Search Books
+
 ![Search Books](screenshots/search-books-api.png)
 
 ### 4. Filter Books
+
 ![Filter Books](screenshots/filter-books-api.png)
